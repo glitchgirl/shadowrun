@@ -14,6 +14,7 @@
      <input type="button" class="btn btn-primary" onclick="answerCheck()"value="S U B M I T" id="answer"></input>
   </form>
   <p class="location" id="location">dis</p>
+  <hr>
 </body>
 <footer>
 </footer>
