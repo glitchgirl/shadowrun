@@ -1,11 +1,23 @@
 /* Rectangle 1 */
-#elvpic{
-    position: absolute;
-    width: 902px;
-    height: 357px;
-    background: url(NGiHmNh.jpg);
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
 }
-
+.topContainer {
+    text-align: center;
+    color: white;
+    font-size: 44px;
+    font-family: Rajdhani, sans-serif;
+    max-width: 100%;
+}
+.centered {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 /* Seattle */
 #title{
     position: absolute;
