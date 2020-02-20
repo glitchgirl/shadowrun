@@ -7,7 +7,9 @@ footer {
     font-family: 'Rajdhani', sans-serif;
     color:white;
     text-align:right;
-    padding:10px
+    padding:10px;
+    margin-top: 0;
+    position: relative;
 }
 
 /* Seattle */
@@ -50,56 +52,35 @@ footer {
 }
 
 /* Rectangle 6 */
-#contact{
-
+.contact{
+    color:white;
+    padding: 300px 10px;
+    text-align:center;
+    font-family: 'Rajdhani', sans-serif;
+    margin:0px;
     background: #565989;
 }
 
-/* live like a local */
-#local{
-    position: absolute;
-    width: 414px;
-    height: 108px;
-
-    font-family: Rajdhani;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 61px;
-    text-align: center;
-
-    color: #FFFFFF;
+.content {
+    display: flex;
+    flex: 1;
 }
 
-/* contact */
+.columns{
+    display: flex;
+    flex:1;
+}
+.main{
+    flex: 1;
+    order: 2;
 
-#contact{
-position: absolute;
-width: 369px;
-height: 54px;
-
-font-family: Rajdhani;
-font-style: normal;
-font-weight: normal;
-font-size: 48px;
-line-height: 61px;
-text-align: center;
-
-color: #FFFFFF;
+}
+.first{
+    width: 20%;
+    order: 1;
+}
+.last{ 
+    width: 20%;
+    order: 3;
 }
 
-
-/* "Lorem ipsum 2"*/
-#contactInfo{
-position: absolute;
-width: 234px;
-height: 137px;
-
-font-family: Rajdhani;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 23px;
-
-color: #F9EBF7;
-}
